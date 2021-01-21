@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "tree": {
+    "name": "vu-error-boundary.production.min.js",
+    "children": [
+      {
+        "name": "index.ts",
+        "uid": "f72d-0"
+      }
+    ],
+    "renderedLength": 1014,
+    "isRoot": true
+  },
+  "nodes": {
+    "f72d-0": {
+      "renderedLength": 1339,
+      "isEntry": true,
+      "id": ""
+    },
+    "f72d-1": {
+      "renderedLength": 0,
+      "isExternal": true,
+      "id": "vue"
+    }
+  },
+  "links": [
+    {
+      "source": "f72d-0",
+      "target": "f72d-1"
+    }
+  ],
+  "env": {
+    "rollup": "2.37.1",
+    "rollup-plugin-visualizer": "4.2.0"
+  },
+  "options": {
+    "gzip": false,
+    "brotli": false
+  }
+}
