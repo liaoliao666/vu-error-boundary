@@ -70,6 +70,30 @@ You can vue to errors (e.g. for logging) by providing an `@error` callback:
 ```vue
 <script>
 import {ErrorBoundary} from 'vu-error-boundary'
+
+export default {
+  setup() {
+    const handleError = useErrorHandler()
+
+    const myErrorHandler = (err: unknown, instance: ComponentPublicInstance | null, info: string) => {
+      // Do something with the error
+      // E.g. log to an error logging client here
+    }
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const name = event.target.elements.name.value
+      fetchGreeting(name).then(
+        newGreeting => setGreeting(newGreeting),
+        handleError,
+      )
+    }
+
+    return {
+     handleSubmit
+    }
+  },
+}
 </script>
 
 <template>
