@@ -5,19 +5,19 @@
     "children": [
       {
         "name": "index.ts",
-        "uid": "f72d-0"
+        "uid": "9a92-0"
       }
     ],
     "renderedLength": 1014,
     "isRoot": true
   },
   "nodes": {
-    "f72d-0": {
+    "9a92-0": {
       "renderedLength": 1339,
       "isEntry": true,
       "id": ""
     },
-    "f72d-1": {
+    "9a92-1": {
       "renderedLength": 0,
       "isExternal": true,
       "id": "vue"
@@ -25,8 +25,8 @@
   },
   "links": [
     {
-      "source": "f72d-0",
-      "target": "f72d-1"
+      "source": "9a92-0",
+      "target": "9a92-1"
     }
   ],
   "env": {

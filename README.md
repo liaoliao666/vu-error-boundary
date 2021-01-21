@@ -80,17 +80,8 @@ export default {
       // E.g. log to an error logging client here
     }
 
-    function handleSubmit(event) {
-      event.preventDefault()
-      const name = event.target.elements.name.value
-      fetchGreeting(name).then(
-        newGreeting => setGreeting(newGreeting),
-        handleError,
-      )
-    }
-
     return {
-     handleSubmit
+     myErrorHandler
     }
   },
 }
