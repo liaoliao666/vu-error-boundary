@@ -1,6 +1,6 @@
 {
   "name": "vu-error-boundary",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "🌈 Simple reusable Vue3 error boundary component",
   "author": "liaoliao666",
   "license": "MIT",
