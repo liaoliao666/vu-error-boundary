@@ -238,8 +238,10 @@ In either case, you could handle those errors like this:
 
 ```vue
 <template>
- <ErrorBoundary FallbackComponent={ErrorFallback}>
+   <ErrorBoundary>
     <Greeting />
+    <template #fallback="{ resetErrorBoundary, error }">
+     ...
   </ErrorBoundary>
 </template>
 ```
